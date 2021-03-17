@@ -9,7 +9,6 @@ You can click the Preview link to take a look at your changes.
 --->
 
 git status (현재 브랜치 상태 확인)
-
 git pull origin main ( 마스터 최신화)
 
 git checkout -b dev-task1 (새로운 브랜치 생성)
