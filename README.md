@@ -29,12 +29,21 @@ You can click the Preview link to take a look at your changes.
 git log (기록 보기)<br/>
 <br/>
 q 를 이용하여 나오기 가능<br/>
+a 를 이용하여 insert(편집) 가능하고 나오려면 ESC 누르기 <br/>
+:wq! + ENTER 를 이용하여 밖으로 나오기 <br/>
 <br/>
 <br/>
 ### ----reset---
 git reset
 <br/>
 <br/>
+### ---rebase 를 통한 commit 수정 및 삭제---
+git rebase -i HEAD~3<br/>
+
+<br/>
+-i = 인터럽트라는 말로<br/>
+HEAD-3 = 헤드부터 3개까지<br/>
+
 ### 소스코드 블록
 ```py
 import numpy as np
