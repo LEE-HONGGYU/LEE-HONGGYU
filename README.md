@@ -32,25 +32,24 @@ q 를 이용하여 나오기 가능<br/>
 a 를 이용하여 insert(편집) 가능하고 나오려면 ESC 누르기 <br/>
 :wq! + ENTER 를 이용하여 밖으로 나오기 <br/>
 <br/>
-<br/>
 ### ----reset---
 git reset
-<br/>
-<br/>
+<br/><br/>
 ### ---rebase 를 통한 commit 수정 및 삭제---
 git rebase -i HEAD~3<br/>
-
 <br/>
 -i = 인터럽트라는 말로<br/>
 HEAD-3 = 헤드부터 3개까지<br/>
-
-### 소스코드 블록
+<br/>
+### 소스코드 블록 사용법
 ```py
 import numpy as np
 ```
 <br/>
 <br/>
+
 ## 블로그 모음<br/>
+
 [이홍규 블로그](https://auzi.tistory.com/)<br/>
 [김태윤 블로그](https://taengioio.tistory.com/)<br/>
 
